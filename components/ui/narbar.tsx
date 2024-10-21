@@ -3,15 +3,15 @@ import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 
 const Navbar = () => { 
     return (
-        <nav>
-            <div>
-                <h1 className="font-mono">
+        <nav className="">
+            <div className="container mx-auto flex justify-between items-center p-2">
+                <h1 className="font-mono text-xl">
                     Tytan Codes
                 </h1>
-            </div>
-            <div>
-                <Button variant="primary">Sign in</Button>
-                <HamburgerMenuIcon />
+                <Button className="flex items-center">
+                    Menu
+                    <HamburgerMenuIcon className="ml-2" />
+                </Button>
             </div>
         </nav>
     )
