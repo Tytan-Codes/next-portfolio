@@ -1,14 +1,14 @@
 import { ModeToggle } from '@/components/ui/darkmode';
 import { Navbar } from '@/components/ui/narbar';
+import Footer  from "@/components/footer";
 export default function Home() {
   return (
     <>
       <Navbar />
-      <div className='flex items-center justify-center min-h-screen'>
-        <h1 className='text-8xl font-mono'>
-          Tytan Codes
-        </h1>
+      <div className='flex items-center justify-center min-h-screen text-8xl font-mono'>
+        Tytan Codes
       </div>
+      <Footer />
     </>
   )
 }
