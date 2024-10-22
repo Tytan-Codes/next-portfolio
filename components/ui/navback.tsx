@@ -1,7 +1,8 @@
 import { Button } from "@/components/ui/button";
-import { HamburgerMenuIcon } from "@radix-ui/react-icons";
+import { Cross1Icon } from "@radix-ui/react-icons";
 import Link from "next/link";
-const Navbar = () => { 
+
+const Navback = () => { 
     return (
         <nav>
             <div className="container mx-auto flex justify-between items-center p-2">
@@ -10,10 +11,10 @@ const Navbar = () => {
                     Tytan Codes
                 </h1>
                 </Link>
-                <Link href="/nav">
+                <Link href="/">
                     <Button variant="outline" className="flex items-center">
-                        Menu
-                        <HamburgerMenuIcon className="ml-2" />
+                        Back
+                        <Cross1Icon className="ml-2" />
                     </Button>
                 </Link>
             </div>
@@ -21,4 +22,4 @@ const Navbar = () => {
     )
 }
 
-export { Navbar };
+export { Navback };

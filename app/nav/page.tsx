@@ -1,9 +1,11 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { ModeToggle } from '@/components/ui/darkmode';
-
+import { Navback } from "@/components/ui/navback"
 export default function Navpage() {
     return (
+        <>
+        <Navback />
         <div className="flex items-center justify-center min-h-screen">
             <div className="space-y-6">
                 <Link href="/">
@@ -31,5 +33,6 @@ export default function Navpage() {
                 </div>
             </div>
         </div>
+        </>
     );
 }
