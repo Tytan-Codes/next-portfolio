@@ -1,5 +1,4 @@
-import { ModeToggle } from '@/components/ui/darkmode';
-import { Navbar } from '@/components/ui/narbar';
+;import { Navbar } from '@/components/narbar';
 import Footer  from "@/components/footer";
 export default function Home() {
   return (

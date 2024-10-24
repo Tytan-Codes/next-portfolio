@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { ModeToggle } from '@/components/ui/darkmode';
-import { Navback } from "@/components/ui/navback"
+import { Navback } from "@/components/navback"
 export default function Navpage() {
     return (
         <>
